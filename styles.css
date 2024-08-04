@@ -8,8 +8,8 @@
     --ff-primary: 'Kalnia Glaze', serif;
     --ff-secondary: 'Roboto', sans-serif;
 
-    --ff-reg: 100;
-    --ff-bold: 300;
+    --ff-reg: 50;
+    --ff-bold: 150;
 
     --clr-light: #f7edf7;
     --clr-dark: #050505;
@@ -39,7 +39,7 @@ body {
     background: var(--clr-light);
     color: var(--clr-dark);
     margin: 0;
-    line-height: 1.5;
+    line-height: 1;
     text-transform: uppercase;
 }
 
@@ -53,7 +53,7 @@ div {
 /* Button */
 button {
     margin: auto;
-    padding: 2em 4em;
+    padding: 1em 2em;
     display: block;
     margin-bottom: 1rem;
     background: var(--clr-accent);
@@ -70,7 +70,6 @@ button:hover {
 /* Typography */
 h1,
 h2 {
-    line-height: 2;
     margin-top: 0;
     font-size: var(--fs-h2);
 }
