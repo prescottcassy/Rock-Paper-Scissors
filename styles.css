@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-primary: 'Kalnia Glaze', serif;
+    --ff-secondary: 'Roboto', sans-serif;
+
+    --ff-reg: 100;
+    --ff-bold: 300;
+
+    --clr-light: #f7edf7;
+    --clr-dark: #050505;
+    --clr-accent: #f516f5;
+
+    --fs-h2: 2rem;
+
+    --bs: .25em .23em .75em rgba(0,0,0,.25), .125em .125em
+    .25em rgba(0,0,0,.15)  
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h2: 5rem;
+    }
+}
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+/* Body */
+body {
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Button */
+button {
+    margin: auto;
+    padding: 2em 4em;
+    display: block;
+    margin-bottom: 1rem;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    cursor:pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+/* Typography */
+h1,
+h2 {
+    line-height: 2;
+    margin-top: 0;
+    font-size: var(--fs-h2);
+}
+
+h1 {
+    color: var(--clr-dark);
+    font-family: var(--ff-secondary);
+    margin-bottom: .1rem;;
+}
+
+h2 {
+    font-family: var(--ff-primary);
+}
