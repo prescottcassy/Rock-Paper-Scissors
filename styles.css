@@ -39,7 +39,7 @@ body {
     background: var(--clr-light);
     color: var(--clr-dark);
     margin: 0;
-    line-height: 2.5;
+    line-height: 1.5;
     text-transform: uppercase;
 }
 
