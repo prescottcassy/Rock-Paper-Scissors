@@ -46,13 +46,12 @@ div {
 /* Button */
 button {
     margin: auto;
-    padding: 1em 2em;
-    align-items: center;
+    padding: 2em 4em;
     display: block;
     margin-bottom: 1rem;
     background: var(--clr-accent);
     color: var(--clr-dark);
-    cursor: pointer;
+    cursor:pointer;
     font-size: .8rem;
     text-transform: uppercase;
     transition: transform 200ms ease-in-out;
