@@ -45,7 +45,7 @@ div {
 
 /* Button */
 button {
-    display: grid;
+    display: flex;
     margin: auto;
     padding: 1em 2em;
     align-items: center;
