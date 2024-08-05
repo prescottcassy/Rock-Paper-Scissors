@@ -6,16 +6,16 @@
 
 :root {
     --ff-primary: 'Kalnia Glaze', serif;
-    --ff-secondary: 'Roboto', sans-
+    --ff-secondary: 'Roboto', sans-serif;
 
     --clr-light: #f7edf7;
     --clr-dark: #050505;
     --clr-accent: #f516f5;
 
-    --fs-h2: 45px:
+    --fs-h2: 45px;
 
     --bs: .25em .23em .75em rgba(0,0,0,.25), .125em .125em
-    .25em rgba(0,0,0,.15)  
+    .25em rgba(0,0,0,.15);
 }
 
 @media (min-width: 800px) {
