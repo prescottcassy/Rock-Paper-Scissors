@@ -6,8 +6,7 @@
 }
 
 :root {
-    --ff-primary: 'Edu AU VIC WA NT Hand', cursive;
-    --ff-secondary: 'Roboto', sans-serif;
+    --ff-primary: 'Roboto', sans-serif;
 
     --clr-light: #f7edf7;
     --clr-dark: #050505;
@@ -67,14 +66,11 @@ h1,
 h2 {
     margin-top: 0;
     font-size: var(--fs-h2);
+    font-family: var(--ff-primary)
 }
 
 h1 {
     color: var(--clr-dark);
-    font-family: var(--ff-secondary);
     margin-bottom: .1rem;;
 }
 
-h2 {
-    font-family: var(--ff-primary);
-}
