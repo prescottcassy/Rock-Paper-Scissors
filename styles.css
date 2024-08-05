@@ -8,7 +8,8 @@
 :root {
     --ff-primary: 'Roboto', sans-serif;
 
-    --clr-light: #f7edf7;
+    --clr-light: #feb47b;
+    --clr-medium: #ff7e5f;
     --clr-dark: #050505;
     --clr-accent: #f516f5;
 
@@ -32,7 +33,7 @@ header {
 
 /* Body */
 body {
-    background: var(--clr-light);
+    background: linear-gradient(to right, var(--clr-medium), var(--clr-light));
     color: var(--clr-dark);
     margin: 0;
     line-height: 1;
