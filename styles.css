@@ -61,14 +61,14 @@ button:hover {
     transform: scale(1.2);
 }
 /* Typography */
-h1,
+h2,
 h4 {
     margin-top: 0;
     font-size: var(--fs-h4);
     font-family: var(--ff-primary)
 }
 
-h1 {
+h2 {
     color: var(--clr-dark);
     margin-bottom: .1rem;;
 }
