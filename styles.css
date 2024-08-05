@@ -47,7 +47,7 @@ div {
 button {
     margin: auto;
     padding: 1em 2em;
-    display: block;
+    align-items: center;
     margin-bottom: 1rem;
     background: var(--clr-accent);
     color: var(--clr-dark);
