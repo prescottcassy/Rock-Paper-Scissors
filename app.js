@@ -17,13 +17,13 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) + 1
     if (randomNumber === 1) {
-        computerChoice = ' Rock'
+        computerChoice = '\nRock'
     }
     if (randomNumber === 2) {
-        computerChoice = ' Paper'
+        computerChoice = '\nPaper'
     }
     if (randomNumber === 3) {
-        computerChoice = ' Scissors'
+        computerChoice = '\nScissors'
     }
     computerChoiceDisplay.innerHTML = computerChoice
 }
